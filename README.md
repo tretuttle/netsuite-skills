@@ -1,4 +1,4 @@
-# NetSuite Skills
+# Netsuite Skills
 
 Reusable AI agent skill for building and searching a complete Oracle NetSuite help index from Oracle's live documentation TOC.
 
