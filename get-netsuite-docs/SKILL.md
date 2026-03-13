@@ -1,5 +1,5 @@
 ---
-name: oracle-netsuite-help-index
+name: get-netsuite-docs
 description: Build, refresh, and search complete Oracle NetSuite help indexes from Oracle's live documentation table of contents. Use when an AI agent needs a full NetSuite docs link list, a hierarchical TOC, an alphabetical index, or quick lookup of Oracle help URLs by title. Use this instead of inferring opaque document IDs from URL patterns alone.
 ---
 

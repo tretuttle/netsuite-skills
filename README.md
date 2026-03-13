@@ -5,12 +5,12 @@ Reusable AI agent skill for building and searching a complete Oracle NetSuite he
 ## Install
 
 ```bash
-npx skills add https://github.com/<owner>/netsuite-skills --skill oracle-netsuite-help-index
+npx skills add https://github.com/<owner>/netsuite-skills --skill get-netsuite-docs
 ```
 
 ## Contents
 
-- `oracle-netsuite-help-index/`
+- `get-netsuite-docs/`
   - `SKILL.md`
   - `agents/openai.yaml`
   - `scripts/build_oracle_netsuite_help_index.py`
@@ -25,6 +25,6 @@ npx skills add https://github.com/<owner>/netsuite-skills --skill oracle-netsuit
 ## Local Usage
 
 ```bash
-python3 oracle-netsuite-help-index/scripts/build_oracle_netsuite_help_index.py --output-dir .
-python3 oracle-netsuite-help-index/scripts/build_oracle_netsuite_help_index.py --query "SuiteScript"
+python3 get-netsuite-docs/scripts/build_oracle_netsuite_help_index.py --output-dir .
+python3 get-netsuite-docs/scripts/build_oracle_netsuite_help_index.py --query "SuiteScript"
 ```
