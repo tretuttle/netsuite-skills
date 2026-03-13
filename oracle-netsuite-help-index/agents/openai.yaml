@@ -1,0 +1,4 @@
+interface:
+  display_name: "Oracle NetSuite Help Index"
+  short_description: "Build full Oracle NetSuite help link indexes from the live TOC."
+  default_prompt: "Use this skill when you need to generate, refresh, or search a complete Oracle NetSuite help index from Oracle's live documentation TOC, including alphabetical and hierarchical outputs."
