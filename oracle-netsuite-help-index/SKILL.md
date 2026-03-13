@@ -1,6 +1,6 @@
 ---
 name: oracle-netsuite-help-index
-description: Build, refresh, and search complete Oracle NetSuite help indexes from Oracle's live documentation table of contents. Use when Codex needs a full NetSuite docs link list, a hierarchical TOC, an alphabetical index, or quick lookup of Oracle help URLs by title. Use this instead of inferring opaque document IDs from URL patterns alone.
+description: Build, refresh, and search complete Oracle NetSuite help indexes from Oracle's live documentation table of contents. Use when an AI agent needs a full NetSuite docs link list, a hierarchical TOC, an alphabetical index, or quick lookup of Oracle help URLs by title. Use this instead of inferring opaque document IDs from URL patterns alone.
 ---
 
 # Oracle NetSuite Help Index
@@ -17,7 +17,7 @@ Oracle's URL pattern is useful for recognizing links, but it is not enough to di
 Run the bundled script:
 
 ```bash
-python3 /home/trent/.codex/skills/oracle-netsuite-help-index/scripts/build_oracle_netsuite_help_index.py --output-dir .
+python3 scripts/build_oracle_netsuite_help_index.py --output-dir .
 ```
 
 This writes:
@@ -28,7 +28,7 @@ This writes:
 To search without opening the full files:
 
 ```bash
-python3 /home/trent/.codex/skills/oracle-netsuite-help-index/scripts/build_oracle_netsuite_help_index.py --query "SuiteScript"
+python3 scripts/build_oracle_netsuite_help_index.py --query "SuiteScript"
 ```
 
 ## Workflow
@@ -64,6 +64,5 @@ Supported flags:
 After edits to the skill or script, run:
 
 ```bash
-python3 /home/trent/.codex/skills/.system/skill-creator/scripts/quick_validate.py /home/trent/.codex/skills/oracle-netsuite-help-index
-python3 /home/trent/.codex/skills/oracle-netsuite-help-index/scripts/build_oracle_netsuite_help_index.py --query "SuiteScript"
+python3 scripts/build_oracle_netsuite_help_index.py --query "SuiteScript"
 ```

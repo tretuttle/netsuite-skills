@@ -1,11 +1,11 @@
-# Oracle NetSuite Help Index Skill
+# NetSuite Skills
 
-Codex skill for building and searching a complete Oracle NetSuite help index from Oracle's live documentation TOC.
+Reusable AI agent skill for building and searching a complete Oracle NetSuite help index from Oracle's live documentation TOC.
 
 ## Install
 
 ```bash
-npx skills add https://github.com/<owner>/oracle-netsuite-help-index --skill oracle-netsuite-help-index
+npx skills add https://github.com/<owner>/netsuite-skills --skill oracle-netsuite-help-index
 ```
 
 ## Contents
