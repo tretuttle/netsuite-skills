@@ -5,7 +5,7 @@ Reusable AI agent skill for building and searching a complete Oracle NetSuite he
 ## Install
 
 ```bash
-npx skills add https://github.com/<owner>/netsuite-skills --skill get-netsuite-docs
+npx skills add https://github.com/tretuttle/netsuite-skills --skill get-netsuite-docs
 ```
 
 ## Contents
