@@ -57,6 +57,7 @@ Supported flags:
 - `--alphabetical-name <name>`: override alphabetical filename
 - `--hierarchy-name <name>`: override hierarchy filename
 - `--query <text>`: print matching title and URL pairs instead of only writing files
+- `--fetch <url>`: fetch an Oracle NetSuite help page and print its content as AI-friendly markdown (no files written)
 - `--toc-url <url>`: override the default Oracle TOC endpoint if needed
 
 ## Validation

@@ -13,6 +13,7 @@ npx skills add https://github.com/<owner>/netsuite-skills --skill get-netsuite-d
 - `get-netsuite-docs/`
   - `SKILL.md`
   - `agents/openai.yaml`
+  - `agents/claude.md`
   - `scripts/build_oracle_netsuite_help_index.py`
 
 ## What It Does
@@ -21,10 +22,19 @@ npx skills add https://github.com/<owner>/netsuite-skills --skill get-netsuite-d
 - generates an alphabetical Markdown index
 - generates a hierarchical Markdown TOC
 - supports title search with `--query`
+- fetches individual doc pages as AI-friendly markdown with `--fetch`
 
 ## Local Usage
 
 ```bash
 python3 get-netsuite-docs/scripts/build_oracle_netsuite_help_index.py --output-dir .
 python3 get-netsuite-docs/scripts/build_oracle_netsuite_help_index.py --query "SuiteScript"
+python3 get-netsuite-docs/scripts/build_oracle_netsuite_help_index.py --fetch "https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_4640429410.html"
 ```
+
+## Supported Agents
+
+| Platform | Config |
+|----------|--------|
+| OpenAI Codex | `agents/openai.yaml` |
+| Claude Code | `agents/claude.md` |
